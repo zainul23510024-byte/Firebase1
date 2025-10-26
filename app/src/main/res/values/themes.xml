@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BelajarFirebase" parent="Base.V24.Theme.Material3.Light">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="windowActionBar">true</item>
+    </style>
+
+    <style name="Theme.BelajarFirebase" parent="Base.Theme.BelajarFirebase" />
+</resources>

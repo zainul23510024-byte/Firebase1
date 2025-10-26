@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+        <LinearLayout>
+
+            <EditText
+                android:id="@+id/nim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="NIM"
+                android:inputType="number"
+                android:minHeight="48dp"
+                tools:ignore="Autofill,VisualLintTextFieldSize" />
+
+            <EditText
+                android:id="@+id/nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Masukan Nama"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColorHint="#546E7A"
+                tools:ignore="VisualLintTextFieldSize" />
+
+            <EditText
+                android:id="@+id/jurusan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Jurusan"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                tools:ignore="VisualLintTextFieldSize" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/save"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Simpan"
+                    style="?android:attr/buttonBarButtonStyle"
+                    tools:ignore="VisualLintButtonSize" />
+
+                <Button
+                    android:id="@+id/showdata"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Lihat Data"
+                    style="?android:attr/buttonBarButtonStyle"
+                    tools:ignore="VisualLintButtonSize" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/logout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Logout"
+                tools:ignore="VisualLintButtonSize" />
+        </LinearLayout>
+
+    </RelativeLayout>
